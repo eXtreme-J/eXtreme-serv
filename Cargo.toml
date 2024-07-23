@@ -1,0 +1,17 @@
+[package]
+name = "extreme_serv"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# console-subscriber = "0.2"
+# jemallocator = "0.5"
+
+ntex = { version = "1.0", features = ["tokio"] }
+
+whois_rust = "1.6"
+
+# console_subscriber depends on tokio.tracing
+# tokio = { version = "1.0", features = ["full", "tracing"] }
